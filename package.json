@@ -1,0 +1,27 @@
+{
+  "name": "ibismall-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-yoga/node": "^2.11.2",
+    "apollo-server-lambda": "^3.9.0",
+    "cloudinary": "^1.30.1",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0",
+    "http": "^0.0.1-security",
+    "mongoose": "^6.3.4",
+    "mongoose-algolia": "^1.10.1",
+    "mongoose-timestamp": "^0.6.0",
+    "nodemon": "^2.0.16",
+    "socket.io": "^4.5.1"
+  },
+  "type": "module"
+}
