@@ -24,15 +24,16 @@ type FrontPage {
     month: String
     year: String
     spend: Int
-    average: Int
+    averageCashOut: Int
     dailys: [Daily]
     recents: [Transaction]
     savings: [Saving]
 }
 
 type Daily {
-    date: String
-    amount: Int
+    day: String
+    CASH_IN: Int
+    CASH_OUT: Int
 }
 
 type Transaction {
