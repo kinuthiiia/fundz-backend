@@ -125,7 +125,8 @@ const resolvers = {
               } else {
                 return total;
               }
-            }, 0),
+            }, 0)
+            .toFixed(0),
           averageCashOut: (
             cashOutTransactionsThisMonth.reduce(
               (sum, value) => sum + value,
